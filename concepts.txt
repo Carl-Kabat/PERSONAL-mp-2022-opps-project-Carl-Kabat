@@ -1,0 +1,19 @@
+- Because sometimes, progress is found in the past
+- what we like
+- what we dont like:
+	> blocky panel interface
+	> e-waste (apple)
+	> lack of confidence in being creative
+	  (physical), dull, lack of colors
+	> boring, repetetive UIs
+- James Scholzs implementation of using multiple devices
+  for different purposes (James's book recommendation);
+  Him being living proof of this project's idea
+- example of modern retro monitor prototype
+
+
+PAGE STRUCTURE:
+- home page
+- mindset
+- museum
+- contact
