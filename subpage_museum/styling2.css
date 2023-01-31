@@ -1,9 +1,9 @@
 .blurry_background {
-    text-align: center;
+    text-align: left;
     width: 95%;
     height: auto;
     margin-top: 2vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1vw;
@@ -53,16 +53,25 @@ td {
     margin-left: 5vw; margin-right: 5vw;
 }
 
-.gallery_container {
-    display: flex;
-    justify-content: space-around;
+.separator {
+    display: block;
+    text-align: center;
     margin-left: auto; margin-right: auto;
-    width: 90%;
+    margin-bottom: 1vw;
+    width: 50vw;
+    height: 0.4vw;
+    background-color: white;
+}
+
+.gallery_container {
+    display: inline-block;
 }
 
         .image_container {
             display: inline-block;
+            vertical-align: top;
             width: auto; height: 100%;
+            margin-left: 5vw
 
         }
 
@@ -76,10 +85,22 @@ td {
                     display: block;
                     text-align: left;
                     padding-top: 1px;
-                    padding-left: 1vw;
+                    padding-left: 1vw; padding-right: 1vw;
                     font-family: 'Perfect DOS VGA 437';
                     font-size: 1.3vw;
                     font-style: italic;
                     color: white;
                     background-color: rgb(0, 0, 0);
                 }
+.gallery_info {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2vw;
+    margin-right: 0;
+    height: auto;
+    width:31vw;
+    font-family: 'Perfect DOS VGA 437';
+    font-size: 25px;
+    line-height: 2.2vw;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}

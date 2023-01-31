@@ -7,6 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1vw;
+    padding-top: 1vw;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -18,10 +19,21 @@
     font-style: italic;
     font-weight: 900;
     text-shadow: 2px 2px rgb(255, 255, 255);
-    -webkit-text-stroke: 1.8px white;
+    -webkit-text-stroke: 1.5px white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2vw;
+}
+
+.separator {
+    display: block;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 1vw;
+    width: 50vw;
+    height: 0.4vw;
+    background-color: white;
 }
 
 table {

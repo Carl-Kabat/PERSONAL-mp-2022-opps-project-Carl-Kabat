@@ -1,0 +1,111 @@
+
+/* Monitor Frame */
+body {
+    font-size: 30px;
+    margin: 0;
+    background-color: rgb(238, 231, 198);
+}
+
+.navigation_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-top: 1.5vw;
+
+    font-size: 1.9vw;
+    font-family: 'Perfect DOS VGA 437';
+}
+        a {
+            text-decoration: none;
+            color:rgb(167, 160, 122);
+            transition: color 0.2s, text-shadow 0.2s;
+        }
+
+        a:hover, a:visited:hover {
+            color: rgb(0, 102, 255);
+            text-shadow: 0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255);
+        }
+
+        a:visited {
+            color:rgb(167, 160, 122);
+        }
+
+        a:active, a:visited:active {
+            color: rgb(0, 0, 0);
+        }
+
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+.monitor_display {
+    overflow-y: auto;
+    box-shadow: 0 0 1.5vw 0.5vw rgb(167, 160, 122);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin-left: auto;
+    margin-right: auto;
+    border: solid rgb(167, 160, 122) 0.6vw;
+    border-radius: 20px;
+    width: 90%;
+    height: 80%;
+    background: url('./media/bg1.jpg');
+    background-size: cover;
+}
+
+.rainbow {
+    margin-right: 14vw;
+    vertical-align: top;
+    margin-left: auto;
+    display: inline-block;
+    height: 20vw;
+    width: 10vw;
+}
+
+        .green {
+            justify-self: flex-start;
+            align-self: stretch;
+            display: inline-block;
+            width: 1.8vw;
+            height: 100%;
+            background-image: linear-gradient(to top, rgb(93, 156, 96) 70%,rgb(164, 240, 121));
+        }
+
+        .orange {
+            justify-self: flex-start;
+            align-self: stretch;
+            display: inline-block;
+            width: 1.8vw;
+            height: 100%;
+            background-image: linear-gradient(to top, rgb(255, 225, 33) 70%,rgb(255, 236, 131));
+        }
+
+        .red {
+            justify-self: flex-start;
+            align-self: stretch;
+            display: inline-block;
+            width: 1.8vw;
+            height: 100%;
+            background-image: linear-gradient(to top, rgb(196, 64, 64) 70%,rgb(255, 157, 124));
+        }
+
+        .purple {
+            justify-self: flex-start;
+            align-self: stretch;
+            display: inline-block;
+            width: 1.8vw;
+            height: 100%;
+            background-image: linear-gradient(to top, rgb(195, 82, 165) 70%,rgb(220, 160, 255));
+        }
+
+        .blue {
+            justify-self: flex-start;
+            align-self: stretch;
+            display: inline-block;
+            width: 1.8vw;
+            height: 100%;
+            background-image: linear-gradient(to top, rgb(78, 134, 255) 70%, rgb(154, 225, 255));
+        }

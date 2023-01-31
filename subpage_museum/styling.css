@@ -17,15 +17,17 @@ body {
 }
         a {
             text-decoration: none;
-            color:rgb(131, 125, 91);
+            color:rgb(167, 160, 122);
+            transition: color 0.2s, text-shadow 0.2s;
         }
 
         a:hover, a:visited:hover {
-            color: rgb(0, 174, 0);
+            color: rgb(0, 102, 255);
+            text-shadow: 0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255);
         }
 
         a:visited {
-            color:rgb(131, 125, 91);
+            color:rgb(167, 160, 122);
         }
 
         a:active, a:visited:active {

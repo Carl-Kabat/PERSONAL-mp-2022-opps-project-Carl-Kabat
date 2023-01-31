@@ -17,15 +17,17 @@ body {
 }
         a {
             text-decoration: none;
-            color:rgb(131, 125, 91);
+            color:rgb(167, 160, 122);
+            transition: color 0.2s, text-shadow 0.2s;
         }
 
         a:hover, a:visited:hover {
-            color: rgb(0, 174, 0);
+            color: rgb(0, 102, 255);
+            text-shadow: 0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255);
         }
 
         a:visited {
-            color:rgb(131, 125, 91);
+            color:rgb(167, 160, 122);
         }
 
         a:active, a:visited:active {
@@ -50,7 +52,7 @@ body {
     border-radius: 20px;
     width: 90%;
     height: 80%;
-    background: url('./media/bg1.jpg');
+    /* background: url('./media/bg1.jpg'); */
     background-size: cover;
 }
 
@@ -107,3 +109,11 @@ body {
             height: 100%;
             background-image: linear-gradient(to top, rgb(78, 134, 255) 70%, rgb(154, 225, 255));
         }
+
+.foot_container {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 93.5%;
+    left: 49vw;
+}

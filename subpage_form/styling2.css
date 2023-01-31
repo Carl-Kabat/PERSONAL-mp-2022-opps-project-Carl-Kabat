@@ -1,0 +1,52 @@
+.blurry_background {
+    text-align: center;
+    width: 95%;
+    height: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.home_header {
+    padding-top: 2vw;
+    font-size: 4vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    -webkit-text-stroke: 1.8px white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separator {
+    display: block;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 1vw;
+    width: 50vw;
+    height: 0.4vw;
+    background-color: white;
+}
+
+table {
+    margin-top: 50px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+td {
+    width: 50%;
+    text-align: left;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    padding: 20px;
+    vertical-align: top;
+    font-size: 2.2vw;
+    font-family: 'Perfect DOS VGA 437';
+}
