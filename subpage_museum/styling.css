@@ -47,6 +47,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: solid rgb(131, 125, 91) 0.6vw;
+    border-radius: 20px;
     width: 90%;
     height: 80%;
     background: url('./media/bg1.jpg');
