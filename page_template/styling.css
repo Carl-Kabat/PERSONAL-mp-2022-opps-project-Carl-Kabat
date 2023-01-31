@@ -52,7 +52,7 @@ body {
     border-radius: 20px;
     width: 90%;
     height: 80%;
-    /* background: url('./media/bg1.jpg'); */
+    background: url('./media/bg1.jpg');
     background-size: cover;
 }
 
