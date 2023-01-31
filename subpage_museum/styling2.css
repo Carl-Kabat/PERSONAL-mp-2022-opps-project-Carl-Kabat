@@ -3,7 +3,7 @@
     width: 95%;
     height: auto;
     margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 3vw;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1vw;
@@ -60,26 +60,26 @@ td {
     width: 90%;
 }
 
-.image_container {
-    display: inline-block;
-    width: auto; height: 100%;
+        .image_container {
+            display: inline-block;
+            width: auto; height: 100%;
 
-}
+        }
 
-.gallery_item {
-    border: ridge rgb(255, 255, 255) 6px;
-    width: auto; height: 200px;
-    margin-top: 2vw;
-}
+                .gallery_item {
+                    border: ridge rgb(255, 255, 255) 6px;
+                    width: auto; height: 200px;
+                    margin-top: 2vw;
+                }
 
-span {
-    display: block;
-    text-align: left;
-    padding-left: 1vw;
-    font-family: 'Perfect DOS VGA 437';
-    font-size: 1.3vw;
-    font-style: italic;
-    color: white;
-    text-shadow: 1px 1px rgb(0, 0, 0);
-    background-color: rgb(131, 125, 91);
-}
+                span {
+                    display: block;
+                    text-align: left;
+                    padding-top: 1px;
+                    padding-left: 1vw;
+                    font-family: 'Perfect DOS VGA 437';
+                    font-size: 1.3vw;
+                    font-style: italic;
+                    color: white;
+                    background-color: rgb(0, 0, 0);
+                }
