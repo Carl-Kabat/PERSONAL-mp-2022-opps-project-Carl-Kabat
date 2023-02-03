@@ -89,6 +89,13 @@ td {
             margin-top: 2vw;
         }
 
+        .gallery_ig {
+            display: inline-block;
+            width: auto; height: 450px;
+            margin-left: 0vw;
+            margin-top: 2vw;
+        }
+
         span {
             display: block;
             text-align: left;
