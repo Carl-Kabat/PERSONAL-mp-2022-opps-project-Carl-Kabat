@@ -19,11 +19,10 @@
     font-style: italic;
     font-weight: 900;
     text-shadow: 2px 2px rgb(255, 255, 255);
-    -webkit-text-stroke: 1.5px white;
+    -webkit-text-stroke: 1.8px white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2vw;
 }
 
 .separator {
@@ -34,13 +33,10 @@
     width: 50vw;
     height: 0.4vw;
     background-color: white;
-    border-top: solid rgb(177, 177, 177) 1px;
-    border-radius: 0.2vw;
 }
 
 table {
     margin-top: 50px;
-    margin-bottom: 25px;
     margin-left: 2vw;
     margin-right: 2vw;
 }
@@ -51,14 +47,8 @@ td {
     text-shadow: 2px 2px rgb(255, 255, 255);
     padding: 20px;
     vertical-align: top;
-    font-size: 2vw;
+    font-size: 2.2vw;
     font-family: 'Perfect DOS VGA 437';
-}
-
-.biuro {
-    height: 23vw;
-    margin-top: 2vw;
-    border: ridge rgb(255, 255, 255) 6px;
 }
 
 .text {
@@ -67,36 +57,6 @@ td {
     text-shadow: 2px 2px rgb(255, 255, 255);
     font-size: 2.2vw;
     font-family: 'Perfect DOS VGA 437';
-    margin-top: 0vw; margin-bottom: 2vw;
+    margin-top: 2vw; margin-bottom: 2vw;
     margin-left: 5vw; margin-right: 5vw;
 }
-
-.wide_gallery {
-    margin-left: 5vw;
-    margin-bottom: 3vw;
-}
-
-        .image_container {
-            display: inline-block;
-            vertical-align: top;
-            width: auto; height: 100%;
-
-        }
-
-        .gallery_item {
-            border: ridge rgb(255, 255, 255) 6px;
-            width: auto; height: 200px;
-            margin-top: 2vw;
-        }
-
-        span {
-            display: block;
-            text-align: left;
-            padding-top: 1px;
-            padding-left: 1vw; padding-right: 1vw;
-            font-family: 'Perfect DOS VGA 437';
-            font-size: 1.3vw;
-            font-style: italic;
-            color: white;
-            background-color: rgb(0, 0, 0);
-        }
