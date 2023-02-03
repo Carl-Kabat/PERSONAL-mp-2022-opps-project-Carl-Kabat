@@ -65,13 +65,13 @@ td {
 
 .gallery_container {
     display: inline-block;
+    margin-left: 5vw
 }
 
         .image_container {
             display: inline-block;
             vertical-align: top;
             width: auto; height: 100%;
-            margin-left: 5vw
 
         }
 
@@ -106,6 +106,7 @@ img:hover {
     display: inline-block;
     vertical-align: top;
     padding-top: 2vw;
+    padding-left: 1vw;
     margin-right: 0;
     height: auto;
     width:31vw;
@@ -113,4 +114,9 @@ img:hover {
     font-size: 25px;
     line-height: 2.2vw;
     text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+.wide_gallery {
+    margin-left: 5vw;
+    margin-bottom: 3vw;
 }
