@@ -29,7 +29,7 @@
     display: inline-block;
     padding-top: 7vw;
     padding-left: 3.3vw;
-    width: 33vw;
+    width: auto;
     line-height: 2.2vw;
     font-family: 'Perfect DOS VGA 437';
     font-size: 2vw;
@@ -45,3 +45,50 @@
     height: 0.4vw;
     background-color: white;
 }
+
+.formularz {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    line-height: 1vw;
+    margin-top: 6vw;
+    margin-left: 8vw;
+    margin-right: auto;
+}
+        label {
+            display: inline-block;
+            font-family: 'Perfect DOS VGA 437';
+            font-size: 1.5vw;
+            padding: 0.3vw;
+            text-shadow: 2px 2px rgb(0, 0, 0);
+            color: white;
+            width: 35vw;
+            background-color: rgb(60, 103, 255);
+        }
+
+        input {
+            display: inline-block;
+            width: 35vw;
+            height: 2vw;
+            margin-bottom: 1vw;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        textarea {
+            display: inline-block;
+            width: 35vw;
+            height: 100px;
+            vertical-align: top;
+            margin-bottom: 1vw;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        input:focus, input:focus-visible, input:focus-within, input:active {
+            border: none;
+        }
+
+        ::placeholder {
+            font-family: 'Perfect DOS VGA 437';
+            font-size: 18px;
+            color:rgb(52, 52, 52);
+        }
