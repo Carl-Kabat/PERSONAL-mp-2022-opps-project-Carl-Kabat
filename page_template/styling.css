@@ -18,7 +18,7 @@ body {
         a {
             text-decoration: none;
             color:rgb(167, 160, 122);
-            transition: color 0.2s, text-shadow 0.2s;
+            transition: color 0.2s, text-shadow 0.5s;
         }
 
         a:hover, a:visited:hover {
