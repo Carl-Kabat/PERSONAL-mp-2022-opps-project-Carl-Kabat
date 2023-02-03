@@ -61,6 +61,8 @@ td {
     width: 50vw;
     height: 0.4vw;
     background-color: white;
+    border-top: solid rgb(177, 177, 177) 1px;
+    border-radius: 0.2vw;
 }
 
 .gallery_container {
